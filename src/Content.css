@@ -1,0 +1,86 @@
+/* App全体のスタイル */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  /* Appヘッダー部分のスタイル */
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .App-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contentコンポーネントのスタイル */
+  .Content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+.Content main {
+    text-align: left;
+  }
+  
+  .Content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .Content h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .Content h4 {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
+  .Content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  .Content el,
+  .Content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Content li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 6px;
+  }
+  
+  /* リストマーカーの色を調整 */
+  .Content li::marker {
+    color: #61dafb;
+  }

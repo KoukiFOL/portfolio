@@ -1,11 +1,10 @@
-import './App.css';
 import './Content.css'
 
-function Content() {
+function About() {
     return (
         <div class="Content">
             <main>
-                <h2>About Ueyama</h2>
+                <h2>自己紹介</h2>
                 <p>reactで作ってみました。</p>
                 <h3>所属</h3>
                 <h4>法学部法律学科</h4>
@@ -24,12 +23,18 @@ function Content() {
                 </el>
                 <h3>趣味</h3>
                 <h4>アプリ開発</h4>
-                <p>いろいろ作ります。</p>
+                <p>主にwebアプリを作っていますが、たまにゲーム作ったりarduino触ったりしています。</p>
+                <p>最近ではラズパイで家にwebサーバー立てて遊んでます。（あまり活用できていない…）</p>
                 <h4>音楽</h4>
-                <p>色々聞きます。</p>
-                <h4>ドラマ</h4>
-                <h4>アニメ</h4>
-                <h4>映画</h4>
+                <p>聞くのも演るのも好きで、軽音部でライブしてます。（たまにライブするので見に来て欲しいです…！）</p>
+                <p>パートは主にギターやってますが、必要に応じてベース弾いたりドラム叩いたりしてます。</p>
+                <h5>好きな音楽</h5>
+                <p></p>
+                <ul>
+                    <li>米津玄師</li>
+                    <li>King Gnu</li>
+                    <li>サカナクション</li>
+                </ul>
 
 
                 
@@ -39,4 +44,4 @@ function Content() {
 
 }
 
-export default Content;
+export default About;

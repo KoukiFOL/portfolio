@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Content from './Content.js';
+import TabComponent from './Contents/TabComponent.js';
 
 function App() {
   const contentRef = useRef(null); // Content部分を参照するためのref
@@ -27,7 +27,7 @@ function App() {
         </a>
       </header>
       <div ref={contentRef}> {/* refを設定 */}
-        <Content />
+        <TabComponent />
       </div>
     </div>
   );

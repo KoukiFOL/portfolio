@@ -1,14 +1,16 @@
-import React, { useRef } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import TabComponent from './Contents/TabComponent.js';
+import React, { useRef } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import TabComponent from "./Contents/TabComponent.js";
+import { GitHub, Email } from "@mui/icons-material";
+
 
 function App() {
   const contentRef = useRef(null); // Content部分を参照するためのref
 
   const scrollToContent = () => {
     if (contentRef.current) {
-      contentRef.current.scrollIntoView({ behavior: 'smooth' }); // スムーズにスクロール
+      contentRef.current.scrollIntoView({ behavior: "smooth" }); // スムーズにスクロール
     }
   };
   return (
@@ -26,9 +28,20 @@ function App() {
           Learn Ueyama
         </a>
       </header>
-      <div ref={contentRef}> {/* refを設定 */}
+      <div ref={contentRef}>
+        {" "}
+        {/* refを設定 */}
         <TabComponent />
       </div>
+      <footer class="App-footer">
+      <a href="https://github.com/KoukiFOL">
+          <GitHub />
+        </a>
+      <a href="mailto:g2220745@cc.kyoto-su.ac.jp,kamiyama.fol@gmail.com">
+        <Email />
+      </a>
+        <p>Created by UEYAMA</p>
+      </footer>
     </div>
   );
 }

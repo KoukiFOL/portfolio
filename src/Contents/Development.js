@@ -4,11 +4,12 @@ function Development() {
     <div class="Content">
       <main>
         <h2>開発</h2>
+        <p>採用ご担当者様向けにポートフォリオを公開いたします。</p>
         <h3>開発物</h3>
         <ul>
           <li>
             <a href="https://www.cc.kyoto-su.ac.jp/~g2220745/studioreserve/">
-              京都のスタジオ予約情報確認サイト
+              京都市のスタジオ予約情報確認サイト
             </a>
           </li>
           <li>
@@ -22,29 +23,34 @@ function Development() {
             </a>
           </li>
           <li>
+            <a href="https://github.com/KoukiFOL/portfolio">
+              自己紹介サイト（このサイトです）
+            </a>
+          </li>
+          <li>
             <a href="https://github.com/KoukiFOL/keion-portal">
-              軽音ポータル（スタジオ予約システム）
+              軽音ポータル（作成中...）
             </a>
           </li>
         </ul>
         <h3>技術スタック</h3>
         <h4>webバックエンド</h4>
         <ul>
-          <li>node.js</li>
+          <li>javascript/node.js</li>
           <li>PHP/Laravel</li>
-          <li>ruby/rails</li>
+          <li>Ruby/Rails</li>
         </ul>
         <h4>webフロントエンド</h4>
         <ul>
           <li>html&css&javascript</li>
-          <li>react</li>
+          <li>React</li>
           <li>pug</li>
           <li>blade</li>
         </ul>
         <h4>その他</h4>
         <ul>
           <li>Arduino/C++</li>
-          <li>Unit/C#</li>
+          <li>Unity/C#</li>
         </ul>
         <h4>制作ソフト</h4>
         <h5>デザイン</h5>
